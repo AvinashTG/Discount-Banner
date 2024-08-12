@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 100;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+}
+
+.background-image {
+    width: 80%;
+    height: 90vh;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash-sale-image {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    position: relative;
+}
+
+.discount-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.url-text {
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.url-text.top {
+    top: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+.url-text.bottom {
+    bottom: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+.url-text.left {
+    top: 50%;
+    left: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+}
+
+.url-text.right {
+    top: 50%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    right: 200px;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+}
